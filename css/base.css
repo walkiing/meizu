@@ -1,0 +1,21 @@
+.clearfix::before,
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+body{
+    font:14px/1.5 Helvetica,Tahoma,Arial,Hiragino Sans GB,Microsoft YaHei,SimSun,Heiti,sans-serif;
+    text-align: center;
+    
+}
+a{
+    color: #333;
+}
+/* 表示中间容器宽度 */
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+    min-width:1240px;
+}
